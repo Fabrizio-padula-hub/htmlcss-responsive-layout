@@ -6,3 +6,95 @@
     margin: 0;
     padding: 0;
 }
+img{
+    max-width: 100%;
+}
+ul li{
+    list-style: none;
+}
+body{
+    font-family: "PT Sans", sans-serif;
+}
+
+/*--------------
+    DEBUG
+--------------*/
+.debug{
+    border: 2px dashed black;
+}
+.debug-in{
+    border: 1px dashed #ff5151;
+}
+.dubug-col{
+    border: 1px dashed #1101ee;
+}
+
+/*--------------
+    UTILITY
+--------------*/
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+.centering{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+.justify{
+    justify-content: space-between;
+}
+
+/*--------------
+    GENERAL
+--------------*/
+.btn{
+    border: none;
+    padding: 6px;
+    border-radius: 30px;
+    background-color: #fff;
+    font-family: "PT Sans", sans-serif;
+}
+
+/*--------------
+    HEADER
+--------------*/
+header .container{
+    background-color: #0084fd;
+    padding: 6px 0;
+    position: sticky;
+    z-index: 10;
+}
+header img{
+    vertical-align: middle;
+}
+.menu li{
+    padding: 0 20px;
+    color: #fff;
+    cursor: pointer;
+}
+header .row, header .menu{
+    min-height: 50px;
+    align-items: center;
+}
+.menu i{
+    display: none;
+}
+
+/***********************
+    MEDIA QUERY
+***********************/
+/* TABLET */
+@media screen and (max-width: 992px){
+    .menu i{
+        display: block;
+        color: #fff;
+        padding-right: 20px;
+    }
+    .menu nav, button{
+        display: none;
+    }
+}
+
+/* SMARTPHONE */
+@media screen and (max-width: 768px){}
