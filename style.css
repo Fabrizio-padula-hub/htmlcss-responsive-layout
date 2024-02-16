@@ -68,6 +68,7 @@ body{
     border-radius: 30px;
     background-color: #fff;
     font-family: "PT Sans", sans-serif;
+    cursor: pointer;
 }
 .card{
     padding: 20px;
@@ -80,6 +81,9 @@ body{
 .benefit .col{
     width: calc(100% / 3);
     padding: 10px;
+}
+h2, h3{
+    color: #9792e4;
 }
 
 /*--------------
@@ -164,6 +168,9 @@ header .logo, header .menu{
     margin-top: 100px;
     margin-bottom: 30px;
 }
+.planning .right h3{
+    color: #000;
+}
 .planning .left p{
     color: #fff;
     padding-right: 20px;
@@ -216,7 +223,7 @@ header .logo, header .menu{
     color: #fff;
     margin: 40px 0;
 }
-.benefit h2, h3{
+.benefit h2{
     color: #9792e4;
 }
 .benefit h2{
@@ -232,12 +239,49 @@ header .logo, header .menu{
     padding: 5px 40px;
     color: #fff;
 }
-
-
-
-
-
 /*** FINE SECTION BENEFIT ***/
+/*** SECTION ABOUT-US ***/
+.about-us .text{
+    width: 70%;
+}
+.about-us .picture{
+    width: 30%;
+}
+.about-us img{
+    max-width: 200px;
+    border-radius: 50%;
+}
+.about-us h2{
+    margin-bottom: 30px;
+    font-size: 60px;
+}
+.about-us p{
+    padding: 20px 0;
+    padding-right: 50px;
+}
+.about-us h3{
+    width: 60%;
+    margin: 20px 0;
+}
+.position{
+    position: relative;
+}
+.picture .fa-solid{
+    position: absolute;
+    font-size: 60px;
+    color: #9792e4;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%);
+}
+.about-us button{
+    padding: 5px 20px;
+    color: #fff;
+}
+.about-us .btn i{
+    margin-right: 10px;
+}
+/*** FINE SECTION ABOUT-US ***/
 
 /***********************
     RESPONSIVE
@@ -287,5 +331,9 @@ header .logo, header .menu{
     }
     .testimonial h4{
         text-align: center;
+    }
+    .about-us .picture,
+    .about-us .text{
+        width: 100%;
     }
 }
