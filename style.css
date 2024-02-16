@@ -22,16 +22,12 @@ body{
 --------------*/
 .debug{
     border: 2px dashed black;
-    min-height: 400px;
 }
 .debug-in{
     border: 1px dashed #ff5151;
 }
 .dubug-col{
     border: 1px dashed #1101ee;
-}
-.planning{
-    min-height: 400px;
 }
 
 /*--------------
@@ -80,6 +76,11 @@ body{
 .bg-vaiolet{
     background-color: #9792e4;
 }
+.info-card .col,
+.benefit .col{
+    width: calc(100% / 3);
+    padding: 10px;
+}
 
 /*--------------
     HEADER
@@ -109,10 +110,6 @@ header .logo, header .menu{
     MAIN
 --------------*/
 /*** SECTION INFO-CARD ***/
-.info-card .col{
-    width: calc(100% / 3);
-    padding: 10px;
-}
 .text-smart-50{
     width: 50%;
 }
@@ -206,17 +203,20 @@ header .logo, header .menu{
     font-size: 40px;
     margin: 30px 0;
 }
-
-
-
-
-
-
-
-
-
-
 /*** FINE SECTION REVIEWS ***/
+/*** SECTION BENEFIT ***/
+.benefit .card{
+    background-color: #fff;
+}
+
+
+
+
+
+
+
+
+/*** FINE SECTION BENEFIT ***/
 
 /***********************
     RESPONSIVE
@@ -243,11 +243,17 @@ header .logo, header .menu{
         display: block;
         margin: 0 auto;
     }
+    .benefit .col{
+        width: 50%;
+    }
 }
+
+
 
 /* SMARTPHONE */
 @media screen and (max-width: 768px){
-    .info-card .col{
+    .info-card .col,
+    .benefit .col{
         width: 100%;
     }
     .testimonial .card{
