@@ -14,6 +14,7 @@ ul li{
 }
 body{
     font-family: "PT Sans", sans-serif;
+    line-height: 27px;
 }
 
 /*--------------
@@ -57,6 +58,9 @@ body{
 .margin-top{
     margin-top: 50px;
 }
+.text-center{
+    text-align: center;
+}
 
 /*--------------
     GENERAL
@@ -72,6 +76,9 @@ body{
     padding: 20px;
     border-radius: 20px;
 }
+.bg-vaiolet{
+    background-color: #9792e4;
+}
 
 /*--------------
     HEADER
@@ -83,9 +90,6 @@ header{
     top: 0;
     z-index: 10;
     box-shadow: 0px 11px 12px -13px #000000;
-}
-header img{
-    vertical-align: middle;
 }
 .menu li{
     padding: 0 20px;
@@ -107,15 +111,12 @@ header .logo, header .menu{
 .info-card .col{
     width: calc(100% / 3);
     padding: 10px;
-    align-items: stretch;
 }
 .text-smart-50{
     width: 50%;
-    text-align: left;
 }
 .info-card .card{
     background-color: #b5ddff;
-    text-align: center;
 }
 .info-card i:not(.fa-apple){
     color: #0084fd;
@@ -123,19 +124,18 @@ header .logo, header .menu{
     margin-bottom: 20px;
 
 }
-.info-card strong{
-    font-size: 20px;
+.info-card h3{
     color: #0084fd;
-    padding: 20px 0;
 }
 .info-card p{
     font-weight: 700;
     color: #5a6e7f;
-    line-height: 27px;
     margin-top: 20px;
 }
 .info-card img{
-    max-width: 60%;
+    max-width: 250px;
+    display: block;
+    margin: 0 auto;
 }
 .info-card button{
     background-color: #0084fd;
@@ -145,19 +145,34 @@ header .logo, header .menu{
 }
 /*** FINE SECTION INFO-CARD ***/
 /*** SECTION PLANNING ***/
-.planning{
-    background-color: #9792e4;
-}
 .planning .centering{
-    max-width: 900px;
+    max-width: 800px;
 }
 .planning .col{
     width: 50%;
     align-items: end;
 }
+.planning .left,
+.planning .right{
+    /* max-width: 60%; */
+}
 .planning .card{
     background-color: #fff;
-    text-align: center;
+}
+.planning .left img{
+    max-width: 350px;
+    display: block;
+    margin: 0 auto;
+}
+.planning .left h3{
+    color: #fff;
+    font-size: 30px;
+    margin-top: 100px;
+    margin-bottom: 30px;
+}
+.planning .left p{
+    color: #fff;
+    padding-right: 20px;
 }
 .planning .btn{
     font-size: 18px;
@@ -168,7 +183,9 @@ header .logo, header .menu{
 .planning .row{
     padding: 20px;
 }
-
+.planning .card img{
+    max-height: 200px;
+}
 
 
 
@@ -197,6 +214,11 @@ header .logo, header .menu{
     .planning .col{
         width: 100%;
         margin-top: 20px;
+    }
+    .planning .left img{
+        max-width: 80%;
+        display: block;
+        margin: 0 auto;
     }
 }
 
