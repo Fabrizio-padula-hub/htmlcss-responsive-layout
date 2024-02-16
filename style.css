@@ -153,10 +153,6 @@ header .logo, header .menu{
     width: 50%;
     align-items: end;
 }
-.planning .left,
-.planning .right{
-    /* max-width: 60%; */
-}
 .planning .card{
     background-color: #fff;
 }
@@ -189,6 +185,29 @@ header .logo, header .menu{
 }
 /*** FINE SECTION PLANNING ***/
 /*** SECTION REVIEWS ***/
+.testimonial img{
+    border-radius: 50%;
+    max-width: 150px;
+}
+.testimonial .card{
+    flex-wrap: nowrap;
+    align-items: center;
+    margin-top: 25px;
+}
+.text-reviews{
+    padding: 0 30px;
+    color: #fff;
+}
+.text-reviews h4{
+    padding-top: 30px;
+}
+.testimonial .text-center h2{
+    color: #9792e4;
+    font-size: 40px;
+    margin: 30px 0;
+}
+
+
 
 
 
@@ -204,9 +223,6 @@ header .logo, header .menu{
 ***********************/
 /* TABLET */
 @media screen and (max-width: 992px){
-    .centering{
-        margin: 0px 20px;
-    }
     .menu i{
         display: block;
         color: #fff;
@@ -234,5 +250,15 @@ header .logo, header .menu{
     .info-card .col{
         width: 100%;
     }
-
+    .testimonial .card{
+        flex-wrap: wrap;
+        width: 100%;
+        justify-content: center;
+    }
+    .testimonial img{
+        margin-bottom: 15px;
+    }
+    .testimonial h4{
+        text-align: center;
+    }
 }
