@@ -22,6 +22,7 @@ body{
 --------------*/
 .debug{
     border: 2px dashed black;
+    min-height: 400px;
 }
 .debug-in{
     border: 1px dashed #ff5151;
@@ -186,11 +187,17 @@ header .logo, header .menu{
 .planning .card img{
     max-height: 200px;
 }
-
-
-
-
 /*** FINE SECTION PLANNING ***/
+/*** SECTION REVIEWS ***/
+
+
+
+
+
+
+
+
+/*** FINE SECTION REVIEWS ***/
 
 /***********************
     RESPONSIVE
