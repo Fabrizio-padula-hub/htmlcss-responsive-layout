@@ -311,6 +311,12 @@ header .logo, header .menu{
     .benefit .col{
         width: 50%;
     }
+    .about-us .text{
+        padding: 30px;
+    }
+    .picture .fa-solid{
+        left: 75%;
+    }
 }
 
 
@@ -335,5 +341,10 @@ header .logo, header .menu{
     .about-us .picture,
     .about-us .text{
         width: 100%;
+        padding: 0px 20px;
+    }
+    .about-us p{
+        padding: 0;
+        margin-bottom: 20px;
     }
 }
