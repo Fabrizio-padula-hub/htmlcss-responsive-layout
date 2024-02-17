@@ -319,13 +319,25 @@ header .logo, header .menu{
 .free span a{
     color: #fff;
 }
-
-
-
 /*** FINE SECTION FREE ***/
 
-
-
+/*--------------
+    FOOTER
+--------------*/
+footer{
+    background-color: #333333;
+    color: #fff;
+    padding-top: 40px;
+    flex-direction: column;
+    align-items: center;
+}
+footer p{
+    max-width: 40%;
+    margin: 30px 0px;
+}
+footer a{
+    color: #8d88d3;
+}
 
 
 /***********************
@@ -364,8 +376,6 @@ header .logo, header .menu{
     }
 }
 
-
-
 /* SMARTPHONE */
 @media screen and (max-width: 768px){
     .info-card .col,
@@ -399,6 +409,9 @@ header .logo, header .menu{
         font-size: 3rem;
     }
     .free p{
+        max-width: 90%;
+    }
+    footer p{
         max-width: 90%;
     }
 }
